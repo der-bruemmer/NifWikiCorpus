@@ -1,0 +1,19 @@
+/*
+ * Martin Brümmer
+ */
+
+apply plugin: 'java'
+
+repositories {
+
+    mavenCentral()
+}
+
+dependencies {
+  
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.8.3'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
+    compile group: 'commons-validator', name: 'commons-validator', version: '1.5.1'
+    compile group: 'org.apache.jena', name: 'jena-core', version: '3.1.0'
+    testCompile 'junit:junit:4.12'
+}
